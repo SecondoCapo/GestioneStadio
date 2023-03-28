@@ -20,8 +20,8 @@ namespace Campionato_Gruppo
         {
             get => goalOspiti; set {  goalOspiti = value; }
         }
-        private String data;
-        public String Data
+        private DateTime data;
+        public DateTime Data
         {
             get
             {
