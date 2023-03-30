@@ -9,15 +9,20 @@ namespace Campionato_Gruppo
 {
     internal class Principale
     {
+        static Persona objpersona= new Persona();
         static void Main(string[] args)
         {
             Campionato objcampionato=new Campionato();
             objcampionato.Inserimanto();
-            foreach (String elemento in objcampionato.Stringhe)
+            /*foreach (String elemento in objcampionato.Stringhe)
             {
                 Console.WriteLine(elemento);
             }
-            Console.ReadKey();
+            Console.ReadKey();*/
+            Squadra objSquadra=new Squadra();
+            objSquadra.Inserimento();
+            objSquadra.Visualizza();
+            Console.ReadLine();
         }
     }
 }

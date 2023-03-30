@@ -27,7 +27,7 @@ namespace Campionato_Gruppo
 
         public void Inserimanto()
         {
-            for (int i = 0; SR.EndOfStream; i++)
+            for (int i = 0; i<28; i++)
             {
                 this.Stringhe.Add(SR.ReadLine());
             }

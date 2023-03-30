@@ -12,8 +12,7 @@ namespace Campionato_Gruppo
         public Squadra() { }
         public Squadra(String _presidente, String _allenatore)
         {
-            this.Allenatore = _allenatore;
-            this.Presidente = _presidente;
+            
         }
         private String nomeSquadra;
         public String NomeSquadra
@@ -30,14 +29,14 @@ namespace Campionato_Gruppo
             }
             set { nomeStadio = value;}
         }
-        private String presidente;
-        public String Presidente
+        private Persona presidente=new Persona();
+        public Persona Presidente
         {
             get => presidente;
             set { presidente = value;}
         }
-        private String allenatore;
-        public String Allenatore
+        private Persona allenatore = new Persona();
+        public Persona Allenatore
         {
             get { return allenatore;}
             set { allenatore = value;}
@@ -48,7 +47,13 @@ namespace Campionato_Gruppo
             get { return giocatori; }
             set { giocatori = value;}
         }
+        
         public void Inserimento()
+        {
+            
+            
+        }
+        public void Visualizza()
         {
             
         }
