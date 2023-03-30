@@ -3,12 +3,18 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using System.IO;
 
 namespace Campionato_Gruppo
 {
-    internal class Squadra
+    internal class Squadra: Persona
     {
         public Squadra() { }
+        public Squadra(String _presidente, String _allenatore)
+        {
+            this.Allenatore = _allenatore;
+            this.Presidente = _presidente;
+        }
         private String nomeSquadra;
         public String NomeSquadra
         {
@@ -41,6 +47,10 @@ namespace Campionato_Gruppo
         {
             get { return giocatori; }
             set { giocatori = value;}
+        }
+        public void Inserimento()
+        {
+            
         }
     }
 }

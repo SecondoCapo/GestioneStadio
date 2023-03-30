@@ -1,0 +1,8 @@
+C:\Users\Federico\Desktop\GestioneStadio\Campionato_Gruppo\Campionato_Gruppo\bin\Debug\Campionato_Gruppo.exe.config
+C:\Users\Federico\Desktop\GestioneStadio\Campionato_Gruppo\Campionato_Gruppo\bin\Debug\Campionato_Gruppo.exe
+C:\Users\Federico\Desktop\GestioneStadio\Campionato_Gruppo\Campionato_Gruppo\bin\Debug\Campionato_Gruppo.pdb
+C:\Users\Federico\Desktop\GestioneStadio\Campionato_Gruppo\Campionato_Gruppo\obj\Debug\Campionato_Gruppo.csproj.AssemblyReference.cache
+C:\Users\Federico\Desktop\GestioneStadio\Campionato_Gruppo\Campionato_Gruppo\obj\Debug\Campionato_Gruppo.csproj.SuggestedBindingRedirects.cache
+C:\Users\Federico\Desktop\GestioneStadio\Campionato_Gruppo\Campionato_Gruppo\obj\Debug\Campionato_Gruppo.csproj.CoreCompileInputs.cache
+C:\Users\Federico\Desktop\GestioneStadio\Campionato_Gruppo\Campionato_Gruppo\obj\Debug\Campionato_Gruppo.exe
+C:\Users\Federico\Desktop\GestioneStadio\Campionato_Gruppo\Campionato_Gruppo\obj\Debug\Campionato_Gruppo.pdb

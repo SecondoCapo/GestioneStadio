@@ -3,10 +3,11 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using System.IO;
 
 namespace Campionato_Gruppo
 {
-    internal class Partita
+    public class Partita
     {
         public Partita() { }
         private int goalCasa;

@@ -4,10 +4,11 @@ using System.IO.Pipes;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using System.IO;
 
 namespace Campionato_Gruppo
 {
-    internal class Persona
+    public class Persona
     {
         public Persona() { }
         private String cognome;
@@ -16,14 +17,14 @@ namespace Campionato_Gruppo
             get { return cognome; }
             set { cognome = value; }
         }
-        private String nomes;
-        public String Nomes
+        private String nome;
+        public String Nome
         {
             get
             {
-                return nomes;
+                return nome;
             }
-            set { nomes = value; }
+            set { nome = value; }
         }
         private String codiceFiscale;
         public String CodiceFiscale
