@@ -16,14 +16,14 @@ namespace Campionato_Gruppo
             get { return cognome; }
             set { cognome = value; }
         }
-        private String nome;
-        public String Nome
+        private String nomes;
+        public String Nomes
         {
             get
             {
-                return nome;
+                return nomes;
             }
-            set { nome = value; }
+            set { nomes = value; }
         }
         private String codiceFiscale;
         public String CodiceFiscale
