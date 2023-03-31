@@ -13,16 +13,18 @@ namespace Campionato_Gruppo
         static void Main(string[] args)
         {
             Campionato objcampionato=new Campionato();
-            objcampionato.Inserimanto();
+            objcampionato.Inserimento();
+            //objcampionato.StampaGiocatori();
             /*foreach (String elemento in objcampionato.Stringhe)
             {
                 Console.WriteLine(elemento);
             }
             Console.ReadKey();*/
-            Squadra objSquadra=new Squadra();
+            /*Squadra objSquadra=new Squadra();
             objSquadra.Inserimento();
             objSquadra.Visualizza();
-            Console.ReadLine();
+            Console.ReadLine();*/
+            Console.ReadKey();
         }
     }
 }

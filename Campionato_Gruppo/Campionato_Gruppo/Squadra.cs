@@ -50,7 +50,7 @@ namespace Campionato_Gruppo
         
         public void Inserimento()
         {
-            
+
             
         }
         public void Visualizza()
