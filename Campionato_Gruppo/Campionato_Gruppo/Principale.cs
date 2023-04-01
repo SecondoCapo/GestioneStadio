@@ -10,21 +10,29 @@ namespace Campionato_Gruppo
     internal class Principale
     {
         static Persona objpersona= new Persona();
+        static String Squadra,Scelta;
+        static Boolean esito =false;
+
         static void Main(string[] args)
         {
-            Campionato objcampionato=new Campionato();
-            objcampionato.Inserimento();
-            //objcampionato.StampaGiocatori();
-            /*foreach (String elemento in objcampionato.Stringhe)
+            Console.WriteLine("Visualizzazzione squadre");
+            while (!esito)
             {
-                Console.WriteLine(elemento);
+                Console.Clear();
+                Console.WriteLine("Inserisci un squadra");
+                Squadra = Console.ReadLine();
+                Squadra objSquadra = new Squadra(Squadra);
+                objSquadra.Inserimento();
+                objSquadra.Visualizza();
+                Console.ReadKey();
+                Console.Clear();
+                Console.WriteLine("Vuoi continuare?");
+                Scelta= Console.ReadLine();
+                if (Scelta.ToUpper() == "NO")
+                {
+                    esito = true;
+                }
             }
-            Console.ReadKey();*/
-            /*Squadra objSquadra=new Squadra();
-            objSquadra.Inserimento();
-            objSquadra.Visualizza();
-            Console.ReadLine();*/
-            Console.ReadKey();
         }
     }
 }

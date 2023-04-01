@@ -373,7 +373,7 @@ Boer,Pietro ,08/03/1984,Roma
 Rui,Patricio ,04/02/1999,Roma
 Svilar,Mile ,12/07/1981,Roma
 Celik,Mehmet Zeki,28/03/2000,Roma
-Foubert-Jacquemin, ,01/08/2003,Roma
+Foubert-Jacquemin,Gianni,01/08/2003,Roma
 Ibanez,Roger ,15/10/1999,Roma
 Karsdorp,Rick ,26/01/2001,Roma
 Kumbulla,Marash ,13/08/1994,Roma

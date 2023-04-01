@@ -10,7 +10,6 @@ namespace Campionato_Gruppo
     public class Campionato
     {
         static StreamReader SR = new StreamReader("Squadra.txt");
-        static string line;
         public Campionato() { }
         private List<String[]> objgiocatori=new List<String[]>();
         public List<String[]> Objgiocatori
@@ -31,28 +30,33 @@ namespace Campionato_Gruppo
             set { stringe = value; }
         }*/
 
-        public void Inserimento()
+        public void Inserimento(String _squadra)
         {
+            String line;
+            SR = new StreamReader("Squadra.txt");
             List<String> squadre = new List<String>();
             String[] stringhe = null;
-            string line;
             while ((line = SR.ReadLine()) != null)
             {
                 stringhe = line.Split(',');
-                this.Persone.Add(new Persona()
+                if (stringhe[3] == _squadra)
                 {
-                    Nome= stringhe[1],
-                    Cognome = stringhe[0],
-                    DataNascita = stringhe[2],
-                    CodiceFiscale="NO DATA",
-                });
+                    this.Persone.Add(new Persona()
+                    {
+                        Nome = stringhe[1],
+                        Cognome = stringhe[0],
+                        DataNascita = stringhe[2],
+                        CodiceFiscale = "NO DATA",
+                    });
+                }
                 squadre.Add(stringhe[3]);
             }
+            
             squadre=squadre.Distinct().ToList();
-            foreach (String elemento in squadre)
+            /*foreach (String elemento in squadre)
             {
                 Console.WriteLine(elemento);
-            }
+            }*/
         }
         public void StampaGiocatori()
         {

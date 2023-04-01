@@ -9,11 +9,13 @@ namespace Campionato_Gruppo
 {
     internal class Squadra: Persona
     {
+        Campionato objCampionato = new Campionato();
         public Squadra() { }
-        public Squadra(String _presidente, String _allenatore)
+        public Squadra(String _nomesquadra)
         {
-            
+            this.NomeSquadra = _nomesquadra;
         }
+        
         private String nomeSquadra;
         public String NomeSquadra
         {
@@ -41,8 +43,8 @@ namespace Campionato_Gruppo
             get { return allenatore;}
             set { allenatore = value;}
         }
-        private Persona[] giocatori = new Persona[30];
-        public Persona[] Giocatori
+        private List<Persona> giocatori = new List<Persona>();
+        public List<Persona> Giocatori
         {
             get { return giocatori; }
             set { giocatori = value;}
@@ -50,12 +52,25 @@ namespace Campionato_Gruppo
         
         public void Inserimento()
         {
-
-            
+            objCampionato.Inserimento(this.NomeSquadra);
+            for (int i = 0; i < objCampionato.Persone.Count; i++)
+            {
+                Giocatori.Add(new Persona()
+                {
+                    Nome= objCampionato.Persone[i].Nome,
+                    Cognome= objCampionato.Persone[i].Cognome,
+                    DataNascita= objCampionato.Persone[i].DataNascita,
+                    CodiceFiscale= objCampionato.Persone[i].CodiceFiscale,
+                });
+            }
         }
         public void Visualizza()
         {
-            
+            for (int i = 0; i < Giocatori.Count; i++)
+            {
+                //Console.WriteLine(Giocatori[i].Nome);
+                Console.WriteLine(Giocatori[i].Cognome + " " + Giocatori[i].Nome + " " + Giocatori[i].DataNascita + " " + Giocatori[i].CodiceFiscale);
+            }
         }
     }
 }
