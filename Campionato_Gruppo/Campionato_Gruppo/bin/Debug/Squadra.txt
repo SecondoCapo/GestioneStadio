@@ -1,30 +1,30 @@
-Musso,Juan ,05/11/1998,Atlanta
-Rossi,Francesco ,21/01/2005,Atlanta
-Sportiello,Marco ,04/08/2001,Atlanta
-Demiral, ,29/11/1998,Atlanta
-Djimsiti,Berat ,27/01/2007,Atlanta
-Hateboer,Hans ,28/02/2008,Atlanta
-Mattiello,Federico ,06/05/1986,Atlanta
-Okoli,Caleb ,25/10/1992,Atlanta
-Palomino,Jose Luis ,18/11/2005,Atlanta
-Ruggeri,Matteo ,21/02/1993,Atlanta
-Scalvini,Giorgio ,30/01/2001,Atlanta
-Soppy,Brandon ,26/08/1997,Atlanta
-Toloi,Rafael ,25/02/1995,Atlanta
-Zappacosta,Davide ,02/05/2010,Atlanta
-De Roon,Marten ,05/10/1985,Atlanta
-Ederson,da Silva ,12/11/1984,Atlanta
-Koopmeiners,Teun ,01/01/1982,Atlanta
-Lunetta,Gabriel ,08/01/1981,Atlanta
-Muratore,Simone ,17/10/1998,Atlanta
-Mæhle,Joakim ,20/03/1987,Atlanta
-Pasalic,Mario ,12/08/2000,Atlanta
-Boga,Jeremie ,13/06/2009,Atlanta
-Holjund,Rasmus ,04/01/1993,Atlanta
-Lookman,Ademola ,04/08/1994,Atlanta
-Muriel,Luis ,09/08/2005,Atlanta
-Vorlicky,Lukas ,24/04/2005,Atlanta
-Zapata,Duvan ,04/12/1996,Atlanta
+Musso,Juan ,05/11/1998,Atalanta
+Rossi,Francesco ,21/01/2005,Atalanta
+Sportiello,Marco ,04/08/2001,Atalanta
+Demiral, ,29/11/1998,Atalanta
+Djimsiti,Berat ,27/01/2007,Atalanta
+Hateboer,Hans ,28/02/2008,Atalanta
+Mattiello,Federico ,06/05/1986,Atalanta
+Okoli,Caleb ,25/10/1992,Atalanta
+Palomino,Jose Luis ,18/11/2005,Atalanta
+Ruggeri,Matteo ,21/02/1993,Atalanta
+Scalvini,Giorgio ,30/01/2001,Atalanta
+Soppy,Brandon ,26/08/1997,Atalanta
+Toloi,Rafael ,25/02/1995,Atalanta
+Zappacosta,Davide ,02/05/2010,Atalanta
+De Roon,Marten ,05/10/1985,Atalanta
+Ederson,da Silva ,12/11/1984,Atalanta
+Koopmeiners,Teun ,01/01/1982,Atalanta
+Lunetta,Gabriel ,08/01/1981,Atalanta
+Muratore,Simone ,17/10/1998,Atalanta
+Mæhle,Joakim ,20/03/1987,Atalanta
+Pasalic,Mario ,12/08/2000,Atalanta
+Boga,Jeremie ,13/06/2009,Atalanta
+Holjund,Rasmus ,04/01/1993,Atalanta
+Lookman,Ademola ,04/08/1994,Atalanta
+Muriel,Luis ,09/08/2005,Atalanta
+Vorlicky,Lukas ,24/04/2005,Atalanta
+Zapata,Duvan ,04/12/1996,Atalanta
 Bagnolini,Nicola ,09/03/1989,Bologna
 Bardi,Francesco ,20/02/1987,Bologna
 Molla,Marco ,24/12/1990,Bologna
