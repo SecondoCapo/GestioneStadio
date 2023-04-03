@@ -23,13 +23,6 @@ namespace Campionato_Gruppo
             get { return persone; }
             set { persone = value; }
         }
-        /*private List<String> stringe=new List<String>();
-        public List<String> Stringhe
-        {
-            get { return stringe; }
-            set { stringe = value; }
-        }*/
-
         public void Inserimento(String _squadra)
         {
             String line;
