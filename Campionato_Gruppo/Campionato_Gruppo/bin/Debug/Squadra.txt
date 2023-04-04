@@ -25,6 +25,8 @@ Lookman,Ademola ,04/08/1994,Atalanta
 Muriel,Luis ,09/08/2005,Atalanta
 Vorlicky,Lukas ,24/04/2005,Atalanta
 Zapata,Duvan ,04/12/1996,Atalanta
+Percassi,Antonio,09/06/1953,Atalanta
+Angelis,Giggi,04/3/1971,Atalanta
 Bagnolini,Nicola ,09/03/1989,Bologna
 Bardi,Francesco ,20/02/1987,Bologna
 Molla,Marco ,24/12/1990,Bologna
@@ -398,6 +400,8 @@ Dybala,Paulo ,22/07/1993,Roma
 El,Shaarawy Stephan,14/04/1980,Roma
 Majchrzak,Jordan ,02/10/1987,Roma
 Solbakken,Selvaag ,02/06/2000,Roma
+Friedkin,Thonas,27/02/1965,Roma
+Mourinho,Jose,26/01/1963,Roma
 Fiorillo,Vincenzo ,13/10/2000,Salernitana
 Ochoa,Guillermo ,25/09/1999,Salernitana
 Sepe,Luigi ,12/04/1996,Salernitana

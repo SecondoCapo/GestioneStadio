@@ -55,21 +55,53 @@ namespace Campionato_Gruppo
             objCampionato.Inserimento(this.NomeSquadra);
             for (int i = 0; i < objCampionato.Persone.Count; i++)
             {
-                Giocatori.Add(new Persona()
+                if (i == objCampionato.Persone.Count - 1)
                 {
-                    Nome= objCampionato.Persone[i].Nome,
-                    Cognome= objCampionato.Persone[i].Cognome,
-                    DataNascita= objCampionato.Persone[i].DataNascita,
-                    CodiceFiscale= objCampionato.Persone[i].CodiceFiscale,
-                });
+                    Allenatore.Cognome = objCampionato.Persone[i].Cognome;
+                    Allenatore.Nome= objCampionato.Persone[i].Nome;
+                    Allenatore.DataNascita = objCampionato.Persone[i].DataNascita;
+                    Allenatore.CodiceFiscale = objCampionato.Persone[i].CodiceFiscale;
+                }
+                else if ( i == objCampionato.Persone.Count - 2)
+                {
+                    Presidente.Cognome = objCampionato.Persone[i].Cognome;
+                    Presidente.Nome = objCampionato.Persone[i].Nome;
+                    Presidente.DataNascita = objCampionato.Persone[i].DataNascita;
+                    Presidente.CodiceFiscale = objCampionato.Persone[i].CodiceFiscale;
+                }
+                
+                else
+                {
+                    Giocatori.Add(new Persona()
+                    {
+                        Nome = objCampionato.Persone[i].Nome,
+                        Cognome = objCampionato.Persone[i].Cognome,
+                        DataNascita = objCampionato.Persone[i].DataNascita,
+                        CodiceFiscale = objCampionato.Persone[i].CodiceFiscale,
+                    });
+                }
+                
             }
         }
         public void Visualizza()
         {
-            for (int i = 0; i < Giocatori.Count; i++)
+            for (int i = 0; i < this.Giocatori.Count; i++)
             {
-                //Console.WriteLine(Giocatori[i].Nome);
                 Console.WriteLine(Giocatori[i].Cognome + " " + Giocatori[i].Nome + " " + Giocatori[i].DataNascita + " " + Giocatori[i].CodiceFiscale);
+            }
+            Console.WriteLine("Allenatore: " + Allenatore.Cognome + " " + Allenatore.Nome+" "+Allenatore.DataNascita+" "+Allenatore.CodiceFiscale);
+            Console.WriteLine("Presidente: " + Presidente.Cognome + " " + Presidente.Nome + " " + Presidente.DataNascita + " " + Presidente.CodiceFiscale);
+        }
+        public void Modifica(String _nome, String _cognome, String _data,String _nomen,String _cognomen, String _datan)
+        {
+            for (int i = 0; i < this.Giocatori.Count; i++)
+            {
+                if ((this.Giocatori[i].Nome == _nome) && (this.Giocatori[i].Cognome == _cognome) && (this.Giocatori[i].DataNascita==_data))
+                {
+                    this.Giocatori[i].Nome = _nomen;
+                    this.Giocatori[i].Cognome = _cognomen;
+                    this.Giocatori[i].DataNascita = _datan;
+                }
             }
         }
     }
