@@ -10,6 +10,7 @@ namespace Campionato_Gruppo
     public class Campionato
     {
         static StreamReader SR = new StreamReader("Squadra.txt");
+        //static StreamWriter SW;
         public Campionato() { }
         
         private List<String[]> objgiocatori=new List<String[]>();
@@ -81,5 +82,22 @@ namespace Campionato_Gruppo
                 this.Punti[i] = 0;
             }
         }
+        /*public void ModificaTXT(String _nome, String _cognome, String _data,String _nomen, String _cognomen, String _datan)
+        {
+            SR = new StreamReader("Squadra.txt");
+            string line = "";
+            using (StreamWriter SW = new StreamWriter("Squadra.txt"))
+            {
+                String[] stringhe = null;
+                while ((line = SR.ReadLine()) != null)
+                {
+                    stringhe = line.Split(',');
+                    if ((_cognome == stringhe[0]) && (_nome == stringhe[1]))
+                    {
+                        SW.WriteLine(_cognomen + "," + _nomen + "," + _datan);
+                    }
+                }
+            }
+        }*/
     }
 }
