@@ -58,6 +58,8 @@ Orsolini,Riccardo ,09/10/1992,Bologna
 Pagliuca,Mattia ,14/03/2005,Bologna
 Sansone,Nicola ,31/08/2000,Bologna
 Zirkzee,Joshua ,05/01/2005,Bologna
+Saputo,Joey,25/09/1964,Bologna
+Motta,Thiago,28/08/1982,Bologna
 Carnesecchi,Marco ,27/05/1987,Cremonese
 Ciezkowski,Dorian ,16/03/1994,Cremonese
 Saro,Gianluca ,10/04/1992,Cremonese
@@ -88,6 +90,8 @@ Dessers,Cyriel ,12/11/2000,Cremonese
 Felix,Afena-Gyan ,05/05/1999,Cremonese
 Okereke,David ,15/04/2007,Cremonese
 Tsadjout,Frank ,20/10/2005,Cremonese
+Arvedi,Giovanni,28/08/1937,Cremonese
+Ballardini,Davide,06/01/1964,Cremonese
 Perisan,Samuele ,23/04/2000,Empoli
 Pratelli,Leandro ,20/06/2008,Empoli
 Ujkani,Samir ,15/07/1984,Empoli
@@ -118,6 +122,8 @@ Destro,Mattia ,17/07/1995,Empoli
 Piccoli,Roberto ,15/01/1998,Empoli
 Pjaca,Marko ,15/06/1988,Empoli
 Satriano,Martin ,04/01/1996,Empoli
+Corsi,Fabrizio,22/08/1960,Empoli
+Zanetti,Paolo,16/12/1982,Empoli
 Cerofolini,Michele ,27/07/1989,Fiorentina
 Sirigu,Salvatore ,09/07/1990,Fiorentina
 Terracciano,Pietro ,12/11/1999,Fiorentina
@@ -145,6 +151,8 @@ Gonzalez,Nicolas ,25/11/2009,Fiorentina
 Jovic,Luka ,05/06/1985,Fiorentina
 Kouame,Christian ,30/09/2009,Fiorentina
 Toci,Eljon ,11/05/2010,Fiorentina
+Commisso,Rocco,25/11/1949,Fiorentina
+Italiano,Vincenzo,10/12/1977,Fiorentina
 Garofani,Giovanni ,01/12/1995,Juventus
 Perin,Mattia ,19/05/2008,Juventus
 Pinsoglio,Carlo ,27/12/1989,Juventus
@@ -179,6 +187,8 @@ Kaio,Jorge ,31/01/2002,Juventus
 Kean,Moise ,21/06/2003,Juventus
 Milik,Arkadiusz ,15/07/1989,Juventus
 Vlahovic,Dusan ,28/07/2005,Juventus
+Ferrero,Gianluca,07/12/1963,Juventus
+Allegri,Massimiliano,11/08/1967,Juventus
 Cordaz,Alex ,06/11/1983,Inter
 Handanovic,Samir ,06/11/2001,Inter
 Onana,Andre ,05/10/2010,Inter
@@ -207,6 +217,8 @@ Correa,Joaquin ,21/07/1988,Inter
 Dzeko,Edin ,08/05/1994,Inter
 Lukaku,Romelu ,21/11/2000,Inter
 Martinez,Lautaro ,30/05/1999,Inter
+Zhang,Steven,21/12/1991,Inter
+Inzaghi,Simone,05/04/1976,Inter
 Adamonis,Marius ,22/10/1997,Lazio
 Maliszewski,Bartlomiej ,10/08/1999,Lazio
 Maximiliano,Luis ,06/03/2002,Lazio
@@ -239,6 +251,8 @@ Cancellieri,Matteo ,01/07/1983,Lazio
 Immobile,Ciro ,01/02/1990,Lazio
 Pedro, ,20/08/2006,Lazio
 Romero,Luka ,06/06/1996,Lazio
+Lotito,Claudio,09/05/1957,Lazio
+Sarri,Maurizio,10/01/1959,Lazio
 Bleve,Marco ,10/05/2006,Lecce
 Brancolini,Federico ,04/05/1992,Lecce
 Falcone,Wladimiro ,08/01/2004,Lecce
@@ -280,6 +294,8 @@ Colombo,Lorenzo ,30/11/2000,Lecce
 Oudin,Remi ,31/08/2008,Lecce
 Rodriguez,Pablo ,11/04/2005,Lecce
 Voelkerling,Persson ,05/06/1998,Lecce
+Damiani,Sticchi,11/05/1975,Lecce
+Baroni,Marco,11/09/1963,Lecce
 Maignan,Mike ,30/12/1996,Milan
 Mirante,Antonio ,29/11/1984,Milan
 Tatarusanu,Ciprian ,04/12/1991,Milan
@@ -311,6 +327,8 @@ Lazetic,Marko ,02/09/1993,Milan
 Leao,Rafael ,29/07/2003,Milan
 Origi,Divock ,17/06/1990,Milan
 Rebic,Ante ,30/04/1992,Milan
+Scaroni,Paolo,28/11/1946,Milan
+Pioli,Stefano,20/10/1965,Milan
 Cragno,Alessio ,18/04/2007,Monza
 Di,Gregorio Michele,23/08/1984,Monza
 Lamanna,Eugenio ,20/03/2001,Monza
@@ -345,6 +363,8 @@ Gytkjaer,Christian ,16/06/2009,Monza
 Maric,Mirko ,25/01/1994,Monza
 Mota,Dany ,05/12/1997,Monza
 Petagna,Andrea ,29/10/1981,Monza
+Berlusconi,Paolo,06/12/1949,Monza
+Palladino,Raffaele,17/04/1984,Monza
 Gollini,Pierluigi ,07/06/1992,Napoli
 Idasiak,Hubert ,20/02/2002,Napoli
 Marfella,Davide ,22/11/1991,Napoli
@@ -371,6 +391,8 @@ Lozano,Hirving ,24/05/1986,Napoli
 Osimhen,Victor ,19/01/1993,Napoli
 Raspadori,Giacomo ,10/07/1992,Napoli
 Simeone,Giovanni ,10/06/2002,Napoli
+DeLaurentis,Aurelio,24/05/1949,Napoli
+Spalletti,Luciano,07/03/1959,Napoli
 Boer,Pietro ,08/03/1984,Roma
 Rui,Patricio ,04/02/1999,Roma
 Svilar,Mile ,12/07/1981,Roma
@@ -431,6 +453,8 @@ Dia,Boulaye ,24/04/1993,Salernitana
 Piatek,Krzysztof ,11/08/1999,Salernitana
 Valencia,Diego ,29/11/2005,Salernitana
 Vergani,Edoardo ,23/11/1989,Salernitana
+Lervolino,Danilo,02/04/1978,Salernitana
+Sousa,Paulo,30/08/1970,Salernitana
 Audero,Emil ,19/07/2000,Sampdoria
 Ravaglia,Nicola ,17/10/1985,Sampdoria
 Turk,Martin ,31/12/1988,Sampdoria
@@ -462,6 +486,8 @@ Lammers,Sam ,27/12/1983,Sampdoria
 Montevago,Daniele ,10/12/2008,Sampdoria
 Pussetto,Ignacio ,29/08/1988,Sampdoria
 Quagliarella,Fabio ,04/08/1991,Sampdoria
+Lanna,Marco,13/07/1968,Sampdoria
+Stankovic,Dejan,11/09/1978,Sampdoria
 Consigli,Andrea ,18/01/1987,Sassuolo
 Pegolo,Gianluca ,18/07/1992,Sassuolo
 Russo,Alessandro ,29/10/1981,Sassuolo
@@ -494,6 +520,8 @@ Mata,Asan ,24/11/1987,Sassuolo
 Oddei,Brian ,23/03/2006,Sassuolo
 Pinamonti,Andrea ,25/10/2008,Sassuolo
 Samele,Luigi ,10/04/2000,Sassuolo
+Rossi,Carlo,23/04/1968,Sassuolo
+Dionisi,Alessio,01/04/1980,Sassuolo
 Dragowski,Bartlomiej ,23/12/2005,Spezia
 Marchetti,Federico ,22/11/2010,Spezia
 Zoet,Jeroen ,19/04/1992,Spezia
@@ -526,6 +554,8 @@ MBala,Nzola ,11/05/1995,Spezia
 Podgoreanu,Suf ,09/12/1987,Spezia
 Shomurodov,Eldor ,10/11/1993,Spezia
 Verde,Daniele ,12/11/1985,Spezia
+Platek,Philip,06/08/1971,Spezia
+Semplici,Leonardo,05/09/1967,Spezia
 Berisha,Etrit ,04/09/2005,Torino
 Gemello,Luca ,11/02/1995,Torino
 Milinkovic,Savic Vanja,15/03/1999,Torino
@@ -554,6 +584,8 @@ Pellegri,Pietro ,20/08/1999,Torino
 Radonjic,Nemanja ,22/06/2004,Torino
 Sanabria,Antonio ,19/11/1995,Torino
 Seck,Demba ,26/05/1991,Torino
+Cairo,Urbano,21/05/1957,Torino
+Juric,Ivan,25/08/1975,Torino
 Carnelos,Matteo ,18/12/2002,Udinese
 Padelli,Daniele ,27/08/1989,Udinese
 Piana,Edoardo ,16/07/2000,Udinese
@@ -582,6 +614,8 @@ Nestorovski,Ilija ,17/05/1998,Udinese
 Pafundi,Simone ,27/04/1983,Udinese
 Success,Isaac ,07/05/1988,Udinese
 Thauvin,Florian ,19/01/1989,Udinese
+Soldati,Franco,30/09/1959,Udinese
+Sottil,Andrea,04/01/1974,Udinese
 Berardi,Alessandro ,19/09/1996,Verona
 Kivila,Kaur ,12/02/2000,Verona
 Montipo,Lorenzo ,18/02/1990,Verona
@@ -616,3 +650,4 @@ Henry,Thomas ,22/08/1981,Verona
 Kallon,Yayah ,27/07/2004,Verona
 Lasagna,Kevin ,07/05/1985,Verona
 Ngonge,Cyril ,01/10/2001,Verona
+Setti,Maurizio,05/06/1963,Verona

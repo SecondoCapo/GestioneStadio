@@ -86,6 +86,7 @@ namespace Campionato_Gruppo
         {
             SR = new StreamReader("Squadra.txt");
             string line = "";
+            
             using (StreamWriter SW = new StreamWriter("Squadra.txt"))
             {
                 String[] stringhe = null;
@@ -97,6 +98,7 @@ namespace Campionato_Gruppo
                         SW.WriteLine(_cognomen + "," + _nomen + "," + _datan);
                     }
                 }
+                SR.Close();
             }
         }*/
     }
